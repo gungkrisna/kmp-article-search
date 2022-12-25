@@ -1,0 +1,30 @@
+#search {
+    border: 1px solid #e3e6ea;
+    box-shadow: none;
+    background: #ebf0f5;
+    padding-left: 0px;
+}
+
+.input-group-text-searchbar {
+    background: #ebf0f5;
+}
+
+.main-logo>a {
+    font-size: 64px;
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    letter-spacing: 2px;
+    vertical-align: middle;
+    line-height: 45px;
+    margin-right: 30px;
+    padding: 0 10px;
+}
+
+@media (min-width: 1100px) {
+    .hidden-on-desktop {
+        display: none!important;
+    }
+}
